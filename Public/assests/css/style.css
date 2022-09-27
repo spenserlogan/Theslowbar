@@ -1,0 +1,12 @@
+body {
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Permanent Marker', cursive;
+}
+.main-container {
+    height: 100vh;
+    background-image: url("../images/Photo-two.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
