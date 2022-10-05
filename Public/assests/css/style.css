@@ -1,12 +1,31 @@
 body {
-    font-family: 'Fira Sans Condensed', sans-serif;
-    font-family: 'Merriweather', serif;
-    font-family: 'Permanent Marker', cursive;
+  font-family: "Merriweather", serif;
 }
-.main-container {
-    height: 100vh;
-    background-image: url("../images/Photo-two.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Merriweather", serif;
+  margin: 10px;
+}
+
+.carousel-item {
+  height: 100%;
+  background: black;
+  color: white;
+}
+
+.slideContainer {
+  position: absolute;
+  bottom: 0;
+  left: 300px;
+  right: 0;
+  padding-bottom: 150px;
+}
+
+.card {
+    width: 18rem;
 }
