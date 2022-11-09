@@ -13,6 +13,82 @@ h6 {
   margin: 10px;
 }
 
+.navbar-brand {
+  position: relative;
+  left: 800px;
+}
+
+.carousel-item {
+  position: relative;
+  left: 170px;
+}
+
+.main-container {
+  position: relative;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  color: #429CF0;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+  color: #429CF0;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  color: #429CF0;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+  color: white;
+}
+
+/* Centered text */
+/*.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}*/
+
+.main-container a {
+  text-decoration: none;
+}
+
+
 .card {
-    width: 18rem !important;
+    width: 18rem;
+}
+
+.card-one {
+  margin-right: 200px;
+  margin-top: 300px;
+}
+
+.card-two {
+  margin-left: 60px;
+}
+
+.card-three {
+  margin-right: 250px;
+}
+
+.card-four {
+  margin-left: 200px;
 }

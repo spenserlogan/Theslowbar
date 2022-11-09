@@ -14,42 +14,145 @@
 
 <body>
     <main>
+        <nav class="navbar navbar-light bg-light" aria-label="First navbar example">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">SLOW BAR</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+        
+              <div class="collapse navbar-collapse" id="navbarsExample01">
+                <ul class="navbar-nav me-auto mb-2">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Spaces</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Guest Roaster</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Education</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
         <section>
             <div class="main-container">
-                <div class="col-lg-12 col-md-6 col-sm-3 mb-5 mt-5 d-flex justify-content-center align-items-center">
-                    <img src="./assests/images/slowbar-one.jpg" alt="main-photo" width="1200px" height="600px">
-                </div>
+                <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./assests/images/slowbar-one.jpg" alt="store front" height="800px">            
+                        <div class="container">
+                          <div class="carousel-caption text-start">
+                            <h1>Example headline.</h1>
+                            <p>Some representative placeholder content for the first slide of the carousel.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assests/images/slowbar-plants.jpg" alt="plants" height="800px">
+                        <div class="container">
+                          <div class="carousel-caption text-start">
+                            <h1>Another example headline.</h1>
+                            <p>Some representative placeholder content for the second slide of the carousel.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./assests/images/slowbar-andy.jpg" alt="coffee employee" height="800px">
+                        <div class="container">
+                          <div class="carousel-caption text-start">
+                            <h1>One more for good measure.</h1>
+                            <p>Some representative placeholder content for the third slide of this carousel.</p>
+                            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                  <a class="bottom-left h1">ABOUT</a>
+                  <a class="top-left h1">HOME</a>
+                  <a class="top-right h1">SHOP</a>
+                  <!--<a class="bottom-right h1">Bottom Right</a> -->
+                  <!--<div class="centered h1">Centered</div> -->  
             </div>
         </section>
         
         <section>
             <div class="retail-container">    
                 <div class="row">
-                    <div class="col-12 col-md-6 col-lg-3 pt-5 pb-5 flex-column">
-                        <div class="card">
-                            <img src="./assests/images/slowbar-slowbarCoffee.jpg" alt="" class="card-img-top">
+                    <div class="col-lg-12 col-md-6 d-flex justify-content-end align-items-end">
+                        <div class="card card-one">
+                            <img class="img-fluid" src="./assests/images/slowbar-slowbarCoffee.jpg" alt="" class="card-img-top">
                         </div>
                     </div>
-    
-                    <div class="col-12 col-md-6 col-lg-3 pt-5 pb-5 flex-column">
-                        <div class="card">
-                            <img src="./assests/images/slowbar-coffee.jpg" alt="" class="card-img-top">
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12 col-md-6 d-flex justify-content-center">
+                        <div class="card card-two">
+                            <img class="img-fluid" src="./assests/images/slowbar-coffee.jpg" alt="" class="card-img-top">
                         </div>
                     </div>
-    
-                    <div class="col-12 col-md-6 col-lg-3 pt-5 pb-5 flex-column">
-                        <div class="card">
-                            <img src="./assests/images/slowbar-syrupOne.jpg" alt="" class="card-img-top">
+                </div>
+            </div>
+
+            <div class="retail-container-two">
+                <div class="row">
+                    <div class="col-lg-12 col-md-6 d-flex justify-content-end">
+                        <div class="card card-three">
+                            <img class="img-fluid" src="./assests/images/slowbar-syrupOne.jpg" alt="" class="card-img-top">
                         </div>
                     </div>
-    
-                    <div class="col-12 col-md-6 col-lg-3 pt-5 pb-5 flex-column">
-                        <div class="card">
-                            <img src="./assests/images/slowbar-syrupTwo.jpg" alt="" class="card-img-top">
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12 col-md-6 d-flex justify-content-start">
+                        <div class="card card-four">
+                            <img class="img-fluid" src="./assests/images/slowbar-syrupTwo.jpg" alt="" class="card-img-top">
                         </div>
                     </div>
-    
-    
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="coffee-conatiner">
+                <div class="row">
+                    <div class="col-lg-12 d-flex justify-content-center p-5">
+                        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                          <div class="col p-4 d-flex flex-column position-static">
+                            <h3 class="mb-0">VAXX</h3>
+                            <div class="mb-1 text-muted">Featured Coffee</div>
+                            <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
+                            <a href="#" class="stretched-link">Continue reading</a>
+                          </div>
+                          <div class="col-auto d-none d-lg-block">
+                            <img src="./assests/images/slowbar-coffee.jpg" width="200" height="250" alt="coffee bag">
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
         </section>
         <section class="About-section">
             <div class="">
